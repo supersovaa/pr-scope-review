@@ -1,13 +1,11 @@
 ---
 name: pr-scope-review
-description: Review a pull request without letting related pre-existing problems expand its scope; classify required fixes as current-PR, separate-PR, or follow-up work, and identify prerequisite dependencies without taking over PR execution.
+description: Review a PR’s scope. Classify required fixes as current-PR, separate-PR, or follow-up work and identify prerequisite PRs.
 ---
 
 # PR Scope Review
 
-Use this skill when reviewing a pull request and related existing problems may tempt the review to expand the PR beyond its purpose.
-
-It is especially useful for documentation changes, but applies to pull request review in general.
+Apply this scope check during PR review when related problems predate the change. It is especially useful for documentation PRs and also applies to code and other changes.
 
 ## Core rule
 
