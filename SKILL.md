@@ -1,11 +1,11 @@
 ---
 name: pr-scope-review
-description: Review a PR’s scope. Classify required fixes as current-PR, separate-PR, or follow-up work and identify prerequisite PRs.
+description: Use during PR review when deciding whether a change in the diff or a proposed fix belongs in the current PR. Classify required fixes as current-PR, separate-PR, or follow-up work and identify prerequisite PRs.
 ---
 
 # PR Scope Review
 
-Apply this scope check during PR review when related problems predate the change. It is especially useful for documentation PRs and also applies to code and other changes.
+Apply the same scope decision to changes already in the diff and to fixes proposed for issues found during review, including pre-existing problems. It is especially useful for documentation PRs and also applies to code and other changes.
 
 ## Core rule
 
